@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1529831489234" clover="3.2.0">
-  <project timestamp="1529831489234" name="All files">
+<coverage generated="1529845674320" clover="3.2.0">
+  <project timestamp="1529845674321" name="All files">
     <metrics statements="34" coveredstatements="34" conditionals="20" coveredconditionals="18" methods="4" coveredmethods="4" elements="58" coveredelements="56" complexity="0" loc="34" ncloc="34" packages="1" files="1" classes="1">
       <file name="listtojson.js" path="/Users/d032233/dev/github/listtojson/lib/listtojson.js">
         <metrics statements="34" coveredstatements="34" conditionals="20" coveredconditionals="18" methods="4" coveredmethods="4"/>
