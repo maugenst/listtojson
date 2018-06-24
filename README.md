@@ -1,3 +1,11 @@
+[![NPM](https://nodei.co/npm/listtojson.png)](https://nodei.co/npm/listtojson/)
+
+[![Build](https://travis-ci.org/maugenst/listtojson.svg?branch=master)](https://travis-ci.org/maugenst/listtojson.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/maugenst/listtojson/badge.svg?branch=master)](https://coveralls.io/github/maugenst/listtojson?branch=master)
+[![Dependencies](https://david-dm.org/maugenst/listtojson.svg)](https://david-dm.org/maugenst/listtojson)
+[![Known Vulnerabilities](https://snyk.io/test/github/maugenst/listtojson/badge.svg?targetFile=package.json)](https://snyk.io/test/github/maugenst/listtojson?targetFile=package.json)
+
+
 # listtojson
 An npm module for node.js to convert HTML lists to JSON objects. Basically ordered and
 unordered lists are the same. Just the browser treats them differently in rendering bullets 
@@ -73,3 +81,15 @@ Array of classes to find a specific list using this css class. Default is 'null/
 
 ### id
 The id of the list which is to be fetched provided as a string. Default is 'null/undefined'.
+
+# Contributing
+
+Improvements, fixes and suggestions for better written modules that other people have created are welcome, as are bug 
+reports against specific tables it is unable to handle.
+
+You can find basic tests in the test folder. I implemented the most straight forward way in using the library. Nonetheless
+there are some edge cases that need to be tested and I would like to ask for support here. Feel free to fork and create
+PRs here. Every bit of help is appreciated.
+
+If you submit a pull request, please add an example for your use case, so I can understand what you want it to do (as I 
+want to get around to writing tests for this and want to understand the sort of use cases people have).

@@ -1,6 +1,6 @@
 {
   "name": "oltojson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An npm module for node.js to convert HTML ordered lists to JSON objects",
   "main": "lib/oltojson.js",
   "directories": {
