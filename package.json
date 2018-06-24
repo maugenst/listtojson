@@ -1,0 +1,44 @@
+{
+  "name": "oltojson",
+  "version": "0.0.1",
+  "description": "An npm module for node.js to convert HTML ordered lists to JSON objects",
+  "main": "lib/oltojson.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maugenst/oltojson.git"
+  },
+  "keywords": [
+    "oltojson",
+    "html",
+    "ol",
+    "ordered",
+    "list",
+    "convert",
+    "json"
+  ],
+  "author": "Marius Augenstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maugenst/oltojson/issues"
+  },
+  "homepage": "https://github.com/maugenst/oltojson#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "pagetojson": "0.0.3"
+  },
+  "devDependencies": {
+    "config": "^1.30.0",
+    "coveralls": "^3.0.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0",
+    "lodash": "^4.17.10",
+    "prettier": "^1.13.5"
+  }
+}
