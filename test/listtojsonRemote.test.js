@@ -4,7 +4,7 @@ const config = require('config');
 const _ = require('lodash');
 const listtojson = require('../lib/listtojson');
 
-describe('OlToJSON Remote', function() {
+describe('List To JSON Remote', function() {
 
     it('Get table from Github using callBack function', async function() {
         await listtojson.convertUrl(

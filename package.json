@@ -1,8 +1,8 @@
 {
-  "name": "oltojson",
-  "version": "0.0.2",
-  "description": "An npm module for node.js to convert HTML ordered lists to JSON objects",
-  "main": "lib/oltojson.js",
+  "name": "listtojson",
+  "version": "0.0.3",
+  "description": "An npm module for node.js to convert HTML lists to JSON objects",
+  "main": "lib/listtojson.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -12,13 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maugenst/oltojson.git"
+    "url": "git+https://github.com/maugenst/listtojson.git"
   },
   "keywords": [
-    "oltojson",
+    "listtojson",
     "html",
-    "ol",
-    "ordered",
     "list",
     "convert",
     "json"
@@ -26,9 +24,9 @@
   "author": "Marius Augenstein",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maugenst/oltojson/issues"
+    "url": "https://github.com/maugenst/listtojson/issues"
   },
-  "homepage": "https://github.com/maugenst/oltojson#readme",
+  "homepage": "https://github.com/maugenst/listtojson#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "pagetojson": "^0.0.3"
