@@ -1,6 +1,6 @@
 {
   "name": "listtojson",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An npm module for node.js to convert HTML lists to JSON objects",
   "main": "lib/listtojson.js",
   "directories": {
@@ -29,13 +29,13 @@
   "homepage": "https://github.com/maugenst/listtojson#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "pagetojson": "*"
+    "pagetojson": "0.0.6"
   },
   "devDependencies": {
     "config": "^1.30.0",
     "coveralls": "^3.0.1",
     "eslint-plugin-jest": "^21.17.0",
-    "jest": "^23.1.0",
+    "jest": "^23.6.0",
     "lodash": "^4.17.10",
     "prettier": "^1.13.5"
   }
