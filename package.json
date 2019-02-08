@@ -1,6 +1,6 @@
 {
   "name": "listtojson",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An npm module for node.js to convert HTML lists to JSON objects",
   "main": "lib/listtojson.js",
   "directories": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/maugenst/listtojson#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "pagetojson": "0.0.6"
+    "pagetojson": "*"
   },
   "devDependencies": {
     "config": "^1.30.0",
